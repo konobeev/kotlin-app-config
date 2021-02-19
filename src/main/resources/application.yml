@@ -1,0 +1,18 @@
+jms:
+  url: "http:\\www.google.com"
+  user: username
+  primary:
+    delay: 10s
+    timeout: 10
+  secondary:
+    delay: 90s
+    timeout: 90
+
+mq:
+  factory:
+    url: "http://yandex.ru"
+    port: 1010
+  topic:
+    name: "topic"
+    group: group
+
